@@ -19,6 +19,9 @@ Included in case there is any emailing capabilities to test. See https://mailcat
 #### Clone the repository:
 `git clone https://github.com/samuel27m/php8-oci-docker`
 
+#### Go to the root folder:
+`cd php8-oci-docker`
+
 #### Start the environment:
 `docker-compose up -d`
 
@@ -26,6 +29,14 @@ Included in case there is any emailing capabilities to test. See https://mailcat
 `http://localhost:3333`
 
 #### That's it 🎉
+
+## Other info
+
+#### SSH into the PHP & Apache container
+`docker-compose exec app bash`
+
+#### Change Apache port
+- Change 3333 value in `docker-compose.yml` file
 
 ## Programs required
 
