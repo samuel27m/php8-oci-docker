@@ -1,4 +1,4 @@
-FROM php:8.0-apache
+FROM php:8.0.11-apache
 
 RUN apt-get update && apt-get install -qqy git unzip libfreetype6-dev \
         libjpeg62-turbo-dev \
